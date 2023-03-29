@@ -28,11 +28,15 @@ Leer 5 strings por teclado:
 </br>6. Leer los strings del archivo del ej. anterior y mostrarlos en pantalla.
 </br>
 </br>
+
 [Solución](./review/strings.c)
 
 </br>
+
 ### 2. Palindrome
+
 Hacer un programa que permita ingresar una palabra por teclado e invertir el orden de sus letras. Luego mostrar la palabra original e invertida y el resultado de compararlas alfabeticamente.
 Sirve para verificar si una palabra es palindromo (ej. anana, aviva, ojo, reconocer)
 </br>
+
 [Solución](./review/palindromo.c)
