@@ -7,7 +7,7 @@
 The structure is always the following:
 
 1. **Declare variables**
-* that we'll use to check that the file was read and closed correctly.
+* that we'll use to check if file was read and closed correctly.
 
 ```c
 int c, c1;
@@ -19,7 +19,7 @@ int c, c1;
 int M[4][3];
 ```
 
-2. **Open the file** and check that it was opened correctly. The file must be in the same folder as the code.
+2. **Open the file** and check if it was opened correctly. The file must be in the same folder as the code.
 
 ```c
 FILE * fp = fopen("matriz.dat", "rb");
@@ -93,25 +93,47 @@ int main()
 6. **Inside a function:**
 
 ```c
-void readingMatrix(int M[20][10]){
-    int c, c1;
-    FILE * fp = fopen("enteros.dat", "rb");
-    if(fp==NULL){
-        perror("Error al abrir archivo");
-        return -1;
+// READING MATRIX
+void leerMatriz (int m [F][C]) {
+    int c;
+    FILE *fp=fopen("matriz.dat", "r");
+    if(fp == NULL) {
+        perror("Error al abrir\n");
+        exit(3);
     }
     else{
-        c = fread(M, sizeof(M), 1, fp);
-        if(c!=1){
-            perror("Error al leer");
-            return -2;
+        c = fread (m, sizeof m[0][0], F*C, fp);
+        if(c != F*C){
+            perror("Error al leer\n");
+            fclose(fp);
+            exit(1);
         }
-        mostrarMatriz(M);
+        if(fclose(fp) != 0){
+            perror("Error al cerrar\n");
+            exit(2);
+        }
+    }
+}
+```
 
-        c1 = fclose(fp);
-        if(c1 != 0){
-            perror("Error al cerrar");
-            return -3;
+```c
+// WRITING MATRIX
+void grabarMatriz (int m [F][C]) {
+    int c;
+    FILE * fp = fopen("matriz.dat", "w");
+    if(fp == NULL) {
+        perror("Error al abrir");
+    }
+    else{
+        c = fwrite (m, sizeof m[0][0], F*C, fp);
+        if(c != F*C){
+            printf("Error al grabar\n");
+            fclose(fp);
+            exit(4);
+        }
+        if( fclose(fp) != 0){
+            printf("Error al cerrar\n");
+            exit(5);
         }
     }
 }
