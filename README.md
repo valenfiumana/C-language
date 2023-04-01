@@ -11,13 +11,13 @@ The repository includes the following resources:
 
 * **Exercises**: A set of advanced C programming exercises covering topics such as memory management, concurrency, network programming, data structures, algorithms, and low-level optimization. Each exercise includes a problem statement, sample input and output, and a solution (in the form of a C source code file). You can use these exercises to sharpen your C programming skills, to explore new concepts and techniques, and to learn from the provided solutions.
 1. [Strings, matrix](./exercises/review.md)
-2. [Structs & Unions](./exercises/struct-unions.md)
+2. [Structs & Unions](./exercises/struct-unions.MD)
 
 * **Tests**: A set of advanced C programming tests covering topics such as systems programming, embedded systems, distributed systems, parallel computing, and cryptography. Each test includes a set of questions and problems, and a time limit for completion. You can use these tests to assess your advanced C programming skills, to simulate real-world programming scenarios, and to compete with other advanced programmers.
 
 * **Cheatsheets**: A collection of cheatsheets and reference materials for advanced C language topics. These cheatsheets provide quick summaries, examples, and tips for common C programming tasks, and can serve as handy reference guides when you need to refresh your memory.
 1. [File management (matrix, arrays, structs, unions)](./cheatsheet/files.md)
-2. [Structs & Unions](./cheatsheet/struct-unions.MD)
+2. [Structs & Unions](./cheatsheet/struct-unions.md)
 
 
 ## Usage
