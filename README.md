@@ -11,7 +11,7 @@ The repository includes the following resources:
 
 * **Exercises**: A set of advanced C programming exercises covering topics such as memory management, concurrency, network programming, data structures, algorithms, and low-level optimization. Each exercise includes a problem statement, sample input and output, and a solution (in the form of a C source code file). You can use these exercises to sharpen your C programming skills, to explore new concepts and techniques, and to learn from the provided solutions.
 1. [Strings, matrix](./exercises/review.md)
-2. [Structs & Unions](./exercises/struct-unions.MD)
+2. [Structs & Unions](./exercises/structs-union.MD)
 
 * **Tests**: A set of advanced C programming tests covering topics such as systems programming, embedded systems, distributed systems, parallel computing, and cryptography. Each test includes a set of questions and problems, and a time limit for completion. You can use these tests to assess your advanced C programming skills, to simulate real-world programming scenarios, and to compete with other advanced programmers.
 
