@@ -36,6 +36,10 @@ Note that the * sign can be confusing here, as it does two different things in o
 
 Arrays **are** ponters (an array name is a pointer to the first element).
 
+![arrays-pointers](./img/pointers-arrays.PNG)
+
+ ![arrays-pointers](./img/pointer-arrays2.PNG)
+
 ```c
 int a[10];
 int *pa;
@@ -106,5 +110,62 @@ int main () {
 }
 ```
 
+## Structs and pointers
+
+### Declaration
 ```c
+#include <stdio.h>
+struct person{
+   int age;
+   float weight;
+};
+
+int main(){
+    struct person *personPtr, person;
+    personPtr = &person;
+}
+```
+
+### Access through pointer
+To access members of a structure using pointers, we use the -> operator. 
+
+* **personPtr->age** is equivalent to (*personPtr).age
+* **personPtr->weight** is equivalent to (*personPtr).weight
+  
+```c
+    printf("Enter age: ");
+    scanf("%d", &personPtr->age); // or &(*personPtr).age
+
+    printf("Enter weight: ");
+    scanf("%f", &personPtr->weight); // or &(*personPtr).weight
+
+    printf("Displaying:\n");
+    printf("Age: %d\n", personPtr->age);
+    printf("weight: %f", personPtr->weight);
+```
+
+## Matrix and Pointers
+
+![img](./img/pointer-notation-of-two-dimensional-array.png)
+
+``` c
+matrix                  // Points to base address of two-dimensional array.
+
+*(matrix)               // Points to first row of two-dimensional array.
+*(matrix + 0)           // Points to first row of two-dimensional array.
+*(matrix + 1)           // Points to second row of two-dimensional array.
+
+**matrix                // Points to matrix[0][0]
+*(*(matrix + 0))        // Points to matrix[0][0]
+*(*(matrix + 0) + 0)    // Points to matrix[0][0]
+*(*matrix + 1)          // Points to matrix[0][1]
+*(*(matrix + 0) + 1)    // Points to matrix[0][1]
+*(*(matrix + 2) + 2)    // Points to matrix[2][2]
+```
+
+
+
+``` c
+```
+``` c
 ```

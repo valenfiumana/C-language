@@ -10,15 +10,21 @@ So if you're a fellow student, or simply a curious programmer looking to take yo
 The repository includes the following resources:
 
 * **Exercises**: A set of advanced C programming exercises covering topics such as memory management, concurrency, network programming, data structures, algorithms, and low-level optimization. Each exercise includes a problem statement, sample input and output, and a solution (in the form of a C source code file). You can use these exercises to sharpen your C programming skills, to explore new concepts and techniques, and to learn from the provided solutions.
-1. [Strings, matrix](./exercises/review.md)
-2. [Structs & Unions](./exercises/structs-union.MD)
 
 * **Tests**: A set of advanced C programming tests covering topics such as systems programming, embedded systems, distributed systems, parallel computing, and cryptography. Each test includes a set of questions and problems, and a time limit for completion. You can use these tests to assess your advanced C programming skills, to simulate real-world programming scenarios, and to compete with other advanced programmers.
 
 * **Cheatsheets**: A collection of cheatsheets and reference materials for advanced C language topics. These cheatsheets provide quick summaries, examples, and tips for common C programming tasks, and can serve as handy reference guides when you need to refresh your memory.
-1. [File management (matrix, arrays, structs, unions)](./cheatsheet/files.md)
-2. [Structs & Unions](./cheatsheet/struct-unions.md)
 
+
+#### Exercises
+1. [Strings, matrix](./exercises/review.md)
+2. [Structs & Unions](./exercises/structs-union.MD)
+3. [Pointers](./exercises/pointers.md)
+
+### Cheatsheets
+* [File management (matrix, arrays, structs, unions)](./cheatsheet/files.md)
+* [Structs & Unions](./cheatsheet/struct-unions.md)
+* [Pointers](./exercises/pointers.md)
 
 ## Usage
 To use this repository, simply clone or download it to your local machine and open the files in your preferred text editor or C development environment. You can work through the exercises and tests at your own pace, and compare your solutions with the provided solutions. The tests are timed, so you should try to complete them within the allotted time to simulate a real-world programming scenario. The cheatsheets can be used as quick reference guides when you need to look up a particular concept or syntax.
