@@ -24,7 +24,7 @@ The repository includes the following resources:
 ### Cheatsheets
 * [File management (matrix, arrays, structs, unions)](./cheatsheet/files.md)
 * [Structs & Unions](./cheatsheet/struct-unions.md)
-* [Pointers](./exercises/pointers.md)
+* [Pointers](./cheatsheet/pointers.md)
 
 ## Usage
 To use this repository, simply clone or download it to your local machine and open the files in your preferred text editor or C development environment. You can work through the exercises and tests at your own pace, and compare your solutions with the provided solutions. The tests are timed, so you should try to complete them within the allotted time to simulate a real-world programming scenario. The cheatsheets can be used as quick reference guides when you need to look up a particular concept or syntax.
