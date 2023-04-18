@@ -32,6 +32,34 @@ Note that the * sign can be confusing here, as it does two different things in o
 * When used in declaration (int* ptr), it creates a pointer variable.
 * When not used in declaration, it act as a dereference operator - which means that it can output the value 
 
+## Some pointers worth mentioning
+### NULL pointer
+If a pointer == NULL, that means that It has no memory address saved (so you can't use *p).
+
+``` c
+int *p;
+p = NULL;
+printf("%d", *p); // ERROR
+```
+
+### void pointer
+The void pointer in C is a pointer that is not associated with any data types. It points to some data location in the storage.
+
+! We cannot use it dereferenced (with *).
+
+#### Syntax
+
+``` c
+void *name_of_pointer; //the void keyword acts as the pointer type
+```
+
+#### Casting
+``` c
+int x = 3;
+void *ptr = &x;
+printf("x == %d", * (int*) ptr);
+```
+
 ## Arrays and Pointers
 
 Arrays **are** ponters (an array name is a pointer to the first element).
@@ -164,8 +192,3 @@ matrix                  // Points to base address of two-dimensional array.
 ```
 
 
-
-``` c
-```
-``` c
-```
