@@ -76,7 +76,7 @@ typedef struct node {
 
 Traverse (show list items)
 ```c
-void traverse(nodo *l) {
+void traverse(node *l) {
     printf("\n\nList elements are - \n");
     while (l != NULL) {
         printf (" --> %d", l->data);
@@ -107,19 +107,14 @@ node *insert_lifo (node *l, int d){
 * Traverse to last node
 * Change next of last node to recently created node
 ```c
-while(temp->next != NULL){
-  temp = temp->next;
-}
-
-temp->next = newNode;
 node *insert_fifo (node *l, int d)
     {
     node *newNode;
-    newNode = (node*) malloc (sizeof (nodo));
+    newNode = (node*) malloc (sizeof (node));
     newNode->data = d;
     newNode->next = NULL;  //bc now it's the last node
     if (l == NULL){
-        return nuevo;
+        return newNode;
     }
     node *temp = l;
     while (temp->next != NULL){

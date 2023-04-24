@@ -191,4 +191,14 @@ matrix                  // Points to base address of two-dimensional array.
 *(*(matrix + 2) + 2)    // Points to matrix[2][2]
 ```
 
+## Pointer to pointer (**)
 
+When we declare a variable in C with an asterisk (*), it means that the variable is a pointer, which is a special type of variable that stores the memory address of another variable.
+
+For example, if we declare int* x;, this means that x is a pointer to an integer variable.
+
+On the other hand, when we use two asterisks (**), it means that we have a pointer to a pointer. In other words, we have a variable that stores the memory address of another variable that is also a pointer.
+
+For example, if we declare int** y;, this means that y is a pointer to a pointer to an integer variable.
+
+🌟This is useful when you need to modify a pointer inside a function, because the original pointer is only modified if its memory address is passed to the function (i.e., a double pointer is used).
