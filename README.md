@@ -21,12 +21,16 @@ The repository includes the following resources:
 2. [Structs & Unions](./exercises/structs-union.MD)
 3. [Pointers](./exercises/pointers.md)
 4. [Dynamic Memory](./exercises/dynamic-memory.md)
+5. Dynamic Data Structures
+- 5.1  [Singly Linked Lists](./exercises/singly-linked-lists.md)
+6. 
 
 ### Cheatsheets
 * [File management (matrix, arrays, structs, unions)](./cheatsheet/files.md)
 * [Structs & Unions](./cheatsheet/struct-unions.md)
 * [Pointers](./cheatsheet/pointers.md)
-* [Dynamic Memory](./cheatsheet/dynamic-memory.md)
+* [Dynamic Memory](./cheatsheet/dynamic-memory.md) 
+* [Dynamic Data Structures](./cheatsheet/dynamic_data_structure.md)
 
 
 ## Usage
