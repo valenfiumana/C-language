@@ -125,12 +125,6 @@ node *insert_fifo (node *l, int d)
     return l;
     }       
 ```
-```c
-```
-```c
-```
-```c
-```
 
 Free space ocupied by list
 ```c
@@ -153,6 +147,13 @@ A doubly linked list is another type of the linked list. It is called a doubly l
 ![img](./img/doubly-linked.png)
 ![img](./img/Doubly-Linked-List-in-C-and-C-.gif)
 
+
+```c
+```
+```c
+```
+```c
+```
 ## Trees 🌳🌳
 A binary tree is a tree data structure in which each node can have at most two children, which are referred to as the left child and the right child. 
 

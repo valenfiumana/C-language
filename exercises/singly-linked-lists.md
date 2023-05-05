@@ -37,6 +37,8 @@ node *destroy (node *l) {
 
 Escriba una función que permita insertar un nuevo elemento antes del primer nodo de una lista enlazada de enteros.
 
+[Solución](./singly_linked_lists/1_insertLIFO.c)
+
 Función
 ```c
 node *insert_lifo (node *l, int d){
@@ -61,6 +63,8 @@ traverse(list);
 
 Escribir un programa que cree una lista tipo LIFO (pila) con datos ingresados por el usuario.
 Luego mostrar los datos. Liberar la memoria que se reservó al crearla.
+
+[Solución](./singly_linked_lists/2_createLifoUser.c)
 
 Función
 ```c
@@ -94,6 +98,8 @@ Implementación
 
 Escriba una función que devuelva la cantidad de elementos de una lista.
 
+[Solución](./singly_linked_lists/3_length.c)
+
 Función
 ```c
 void length(node *l) {
@@ -114,6 +120,8 @@ length(list);
 ### Ejercicio 4 - 
 
 Dada una lista enlazada, formada por números enteros, hacer un programa que la divida en dos listas: pares e impares.
+
+[Solución](./singly_linked_lists/4_twoSublists.c)
 
 Función
 ```c
@@ -148,6 +156,7 @@ Implementación
 
 Escribir una función que inserte un elemento después del último nodo de una lista enlazada.
 
+
 Función
 ```c
 //Insert at the end
@@ -180,6 +189,8 @@ traverse(list);
 ### Ejercicio 6 - 
 
 Escribir una función que busque un elemento de la lista, por comparación con una clave e indique si se encuentra o no. Si se encuentra se informará este elemento y también el anterior (en caso de existir).
+
+[Solución](./singly_linked_lists/6_searchElement.c)
 
 Función
 ```c
@@ -220,6 +231,8 @@ Implementación
 
 Se tiene una lista ordenada de números enteros y se pide hacer una función que inserte un elemento a la lista, manteniéndola ordenada.
 
+[Solución](./singly_linked_lists/7_addKeepingOrder.c)
+
 Función
 ```c
 // Insert node keeping the list sorted in ascending order
@@ -259,6 +272,8 @@ Implementación
 ### Ejercicio 8 - 
 
 Buscar un elemento numérico en una lista y eliminarlo. Considerar que puede ser el primero, último o intermedio.
+
+[Solución](./singly_linked_lists/8_searchAndDelete.c)
 
 Función
 ```c
@@ -321,15 +336,13 @@ Escribir un programa que lea un archivo con registros formados por un dato enter
     * Eliminar un nodo de la lista, habiendo sido encontrado.
     * Grabar en un nuevo archivo y salir.
 
-[Solución](./singly_linked_lists/)
+[Solución](./singly_linked_lists/9_menu.c)
 
 ### Ejercicio 10 - 
 
-Escribir un programa que lea un archivo con registros formados por un dato
-entero, un float y una descripción de 30 caracteres.
+Escribir un programa que lea un archivo con registros formados por un dato entero, un float y una descripción de 30 caracteres.
 * Generar una lista con un vector de punteros a estructuras.
 * Ordenar la lista utilizando el campo entero.
 * Mostrar el contenido de la lista ordenada.
 * Grabar en un archivo y finalizar.
 
-[Solución](./singly_linked_lists/)
