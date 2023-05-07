@@ -1,9 +1,4 @@
 # Singly Linked Lists
-
-## Exercises
-
-[Solución ejercicio 1 al 8](./singly_linked_lists/operations.c)
-
 ### General functions
 
 Show list
@@ -32,6 +27,10 @@ node *destroy (node *l) {
     return NULL;
 }
 ```
+
+## Exercises
+
+[Solución ejercicio 1 al 8](./singly_linked_lists/operations.c)
 
 ### Ejercicio 1 - 
 

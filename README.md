@@ -23,6 +23,7 @@ The repository includes the following resources:
 4. [Dynamic Memory](./exercises/dynamic-memory.md)
 5. Dynamic Data Structures
 - 5.1  [Singly Linked Lists](./exercises/singly-linked-lists.md)
+- 5.2 [Doubly Linked Lists](./exercises/doubly_linked_lists.md)
 6. 
 
 ### Cheatsheets
