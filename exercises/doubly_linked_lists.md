@@ -1,5 +1,30 @@
 # Exercises: Doubly Linked Lists
 
+
+```c
+lista eliminar (lista l, int d) {
+    nodo_d *p;
+    
+    p = l.primero;
+    while (p != NULL && p->dato != d)
+        p = p->sig;
+    if (p != NULL) { /* Se encontro el nodo */
+        if (p->ant != NULL) /* El nodo a borrar no es el primero */
+            p->ant->sig = p->sig;
+        else  /* El nodo a borrar es el primero */
+            l.primero = p->sig;
+        if (p->sig != NULL) /* El nodo a borrar no es el ultimo */
+            p->sig->ant = p->ant;
+        else  /* El nodo a borrar es el ultimo */
+            l.ultimo = p->ant;
+        free (p);
+    }
+    else
+        printf ("No se encuentra el nodo");
+    return l;
+}
+```
+
 ## Ejercicio 1
 Escribir funciones que inserten un elemento numérico en una lista doblemente enlazada:
 * Al principio de la lista (insertar_lifo)
