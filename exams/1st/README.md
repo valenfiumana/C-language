@@ -70,3 +70,51 @@ Se pide hacer un programa que realice las siguientes tareas:
 
 Para generar el archivo (numeros random del 102 al 107) :
 [Generar archivo muestras.dat](./files/crearArchivos/muestras.c)
+
+
+## Alumnos
+
+archivo: ["alumnos.dat"](./files/alumnos.dat)
+estructura:
+char nombre[20];
+int legajo;
+float calificacion;
+
+1- leer archivo conformando lista simple
+2- MENU:
+        1- Agregar un alumno a la lista
+        2- Calcular promedio e informar alumnos con calificaciones superiores al promedio
+        3- Modificar la calificacion de un alumno conociendo su legajo
+        4- FIN DEL MENU
+3- Grabar los nuevos datos en un archivo y finalizar.
+
+[Solución](./alumnos.c)
+
+Para generar el archivo (struct finalizando con 0) :
+[Generar archivo alumnos.dat](./files/crearArchivos/muestras.c)
+
+## /*
+Descargue en su computadora el archivo binario [archivo.dat](./files/archivo.dat)
+
+Este archivo se generó usando la siguiente estructura en C (struct):
+
+typedef struct estructura{
+    int codigo;
+    char objeto[20];
+}estructura;
+
+Y en su interior contiene nombres de distintos objetos y un número entero asociado al objeto (números comprendidos entre 1000 y 9999).
+
+Lo que usted debe hacer con el archivo es:
+
+1. Descargarlo en su computadora.
+2. Crear un programa en C que lea los datos del archivo y los inserte en una única lista simple según el siguiente criterio:
+
+a) Si el código numérico (int) del objeto es PAR: insertarlo con el método "FIFO".
+b) Si el código numérico (int) del objeto es IMPAR: insertarlo con el método "LIFO".
+3. Descartar de la lista aquellos objetos (o nodos) cuyos códigos sean mayores o iguales a 9000.
+4. Averiguar en qué posición de la lista queda el nodo con el objeto "lavadora", considerando que el primer
+nodo estará en la posición 1, el segundo en la posición 2, y así sucesivamente.
+*/
+
+[Solución](./archivo.c)
